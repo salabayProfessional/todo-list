@@ -1,0 +1,34 @@
+.list__item {
+  border: 1px solid black;
+  border-style: dashed;
+  border-radius: 20px;
+  width: 380px;
+  height: auto;
+  margin-top: 10px;
+}
+
+.list__item p {
+  margin-left: 10px;
+}
+
+.basic-button {
+  padding: 5px;
+  width: 100%;
+  border: 1px;
+  border-style: dashed;
+  border-radius: 8px;
+  background-color: #c9c9c93b;
+  cursor: pointer;
+  margin: 10px 0;
+}
+
+.list__item-bottom {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.list__item-bottom div {
+  width: 300px;
+}

@@ -1,0 +1,23 @@
+.header {
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #c0c0c042;
+}
+
+.header .header__logo {
+}
+
+.header .header__nav {
+  display: flex;
+}
+
+.header .header__nav .header__nav-link {
+  text-decoration: none;
+  color: black;
+  margin-left: 10px;
+}
